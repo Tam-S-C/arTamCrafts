@@ -1,0 +1,28 @@
+h6{
+	color: darkmagenta;
+}
+
+*{
+	color: rgb(0,100,100);
+}
+
+.dato {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#cuatro {
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+}
+
+h1{
+	text-decoration: underline;
+}
+
+body{
+	background: linear-gradient(to bottom, #FFFFFF, #9090FF);
+}
