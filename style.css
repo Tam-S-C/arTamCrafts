@@ -224,6 +224,9 @@ footer {
     aside{
         margin: 10px;
 }
+#nombre, #email, #comentario {
+    width: 250px;
+}
 }
 
 
