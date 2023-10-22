@@ -3,11 +3,12 @@
     color: #978FC5;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 header {
     width: 90%;
-    height: 60px;
+    height: 80px;
     background-color: #CFE9E7;
     margin: auto;
     padding: 10px;
@@ -20,12 +21,12 @@ header {
 }
 
 h1 {
+    font-family: Calibri, Tahoma, Verdana;
     font-size: 28px;
     font-weight:bold;
     float:left;
     padding: 15px 20px 0px 20px;
 }
-
 
 #buscador {
     float: left;
@@ -36,6 +37,7 @@ h1 {
 }
 
 nav {
+    font-family: Calibri, Tahoma, Verdana;
     width: 90%;
     background-color:white;
     margin: auto;
@@ -47,6 +49,7 @@ nav {
 }
 
 a {
+    color: #978FC5;
     display: inline-block;
     text-decoration: none;
     padding:3px 3px 3px 10px;
@@ -97,6 +100,12 @@ article{
     padding: 0px 10px 10px 10px;
 }
 
+#carouselExampleCaptions{
+    display: flex;
+    width: 300px;
+    margin: 10px;
+}
+
 aside {
     background-color: #D7D7ED;
     padding: 10px;
@@ -123,8 +132,8 @@ aside a:hover {
 
 footer {
     width: 90%;
-    margin: 20px auto 20px auto;
-    height: 45px;
+    margin: 10px auto 20px auto;
+    height: 80px;
     background-color: #CFE9E7;
     padding: 10px;
     font-size: 15px;
@@ -133,10 +142,61 @@ footer {
 
 #pie {
     float: left;
-    padding: 10px 20px 5px 5px;
+    padding: 25px 20px 5px 5px;
+}
+
+#iconoRedes {
+    float: left;
 }
 
 #afip {
     float: left;
     border-radius: 5px; 
 }
+
+/*Responsive tablets*/
+@media (max-width: 928px) {
+    header {
+        height: 120px;
+    }
+    #logo {
+        width:70px;
+    }
+    h1 {
+        font-size:22px;
+    }
+    #buscador {
+        float: bottom;
+        size: 30px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+
+@media (max-width: 722px) {
+    footer {
+        height: 130px;
+    }
+}
+
+/*Responsive cel*/
+@media (max-width: 512px) {
+    header {
+        height: 120px;
+    }
+    #logo {
+        width:55px;
+    }
+    h1 {
+        font-size:15px;
+    }
+    #buscador {
+        width: 250px;
+    }
+    footer {
+        height: 150px;
+}
+}
+
+
