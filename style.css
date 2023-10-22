@@ -17,7 +17,7 @@ header {
 
 #logo {
     float: left;
-    padding: 0px 0px 0px 15px;
+    padding: 5px 0px 0px 15px;
 }
 
 h1 {
@@ -145,7 +145,7 @@ footer {
     padding: 25px 20px 5px 5px;
 }
 
-#iconoRedes {
+.iconoRedes {
     float: left;
 }
 
@@ -154,7 +154,24 @@ footer {
     border-radius: 5px; 
 }
 
+
+/*css contacto*/
+
+.botonContacto {
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0px 10px 0px 0px;
+    box-shadow: 3px 3px 0px #E885B0;
+}
+
+#nombre, #email, #comentario {
+    border-radius: 10px;
+    border-color: #D7D7ED;
+}
+
+
 /*Responsive tablets*/
+
 @media (max-width: 928px) {
     header {
         height: 120px;
@@ -181,21 +198,31 @@ footer {
 }
 
 /*Responsive cel*/
+
 @media (max-width: 512px) {
     header {
         height: 120px;
     }
     #logo {
-        width:55px;
+        width:60px;
     }
     h1 {
-        font-size:15px;
+        font-size:14px;
     }
     #buscador {
-        width: 250px;
+        width: 260px;
     }
     footer {
         height: 150px;
+}
+    section{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+}
+    aside{
+        margin: 10px;
 }
 }
 
