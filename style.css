@@ -95,14 +95,14 @@ main {
 }
 
 article{
-    width: 70%;
+    width: 80%;
     font-size: 18px;
     padding: 0px 10px 10px 10px;
 }
 
 #carouselExampleCaptions{
     display: flex;
-    width: 300px;
+    width: 291px;
     margin: 10px;
 }
 
@@ -154,6 +154,27 @@ footer {
     border-radius: 5px; 
 }
 
+#blueHair {
+    float: auto;
+    border-radius: 15px; 
+    margin: 0px 0px 0px 30px;
+}
+
+#contenedor1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/*css productos*/
+.imgProducto {
+    padding: 5px;
+}
+
+#contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 /*css contacto*/
 
@@ -164,13 +185,25 @@ footer {
     box-shadow: 3px 3px 0px #E885B0;
 }
 
-#nombre, #email, #comentario {
+#nombre, #email, #comentario, #apellido {
     border-radius: 10px;
     border-color: #D7D7ED;
 }
 
 
 /*Responsive tablets*/
+
+@media (max-width: 1200px) {
+    section{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    aside{
+        margin: 10px 0px 0px 0px;
+    }
+}
 
 @media (max-width: 928px) {
     header {
@@ -188,6 +221,14 @@ footer {
     }
     footer {
         height: 100px;
+    }
+    #contenedorProductos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #contenedor1 {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -214,19 +255,18 @@ footer {
     }
     footer {
         height: 150px;
+    }
+    #nombre, #email, #comentario, #apellido {
+    width: 250px;
+    }
+    #contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
 }
-    section{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-}
-    aside{
-        margin: 10px;
-}
-#nombre, #email, #comentario {
+
+/*Imágenes Página sobre mi*/
+
+#portfolioIMG:hover {
     width: 250px;
 }
-}
-
-
