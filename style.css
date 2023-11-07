@@ -283,6 +283,9 @@ footer {
     #nombre, #email, #comentario, #apellido {
         width: 200px;
     }
+    #blueHair {
+        width: 100px;
+    }
 }
 
 /*Imágenes Página sobre mi*/
