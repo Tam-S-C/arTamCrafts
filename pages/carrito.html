@@ -41,7 +41,9 @@
 
             <article>
                 >> AUN NO TIENES PRODUCTOS SUMADOS EN TU CARRITO DE COMPRAS
-                <p>Una vez que añadas productos al carrito los verás reflejados en esta página y se habilitarán las opciones de envío y de pago.</p>
+                <br><br>
+                <p>Una vez que añadas productos al carrito los verás reflejados 
+                <br>en esta página y se habilitarán las opciones de envío y de pago.</p>
 
 <!--Aun no está habilitada la opción de sumar productos al carrito-->
 
@@ -50,27 +52,34 @@
         </main>
 
         <aside>
-            <p class="titulo1"> > > DESCUENTOS!! ;D</p>
-            <br>
+            <p class="titulo1"> > > DATOS!! ;D</p>
             <ul>
-                <li><span>15%</span> en tu primer compra!</li>
-                <li><span>10%</span> llevando 2 o más productos iguales!</li>
-                <li><span>Envío gratis</span> en compras a partir de 10mil$!</li>
-                <li><span>5% extras</span> de descuento pagando en efectivo o transferencia!</li>             
+                <label><li>Opción de Envío / Retiro:</li></label> 
+                <p><strong>> ></strong> Una vez que tengas productos en tu carrito se habilitarán el botón de envío de datos.</p>           
+                    <input type="radio" id="correo" name="envioRetiro" value="correo" class="radioColor"/>     
+                    <label for="correo"> Correo </label>
+                    <br>         
+                    <input type="radio" id="domicilio" name="envioRetiro" value="domicilio" class="radioColor"/>       
+                    <label for="domicilio"> A domicilio </label>
+                    <br>         
+                    <input type="radio" id="showroom" name="envioRetiro" value="showroom" class="radioColor"/>       
+                    <label for="showroom"> Showroom </label>
+                    <br>         
+                    <input type="radio" id="eventos" name="envioRetiro" value="eventos" class="radioColor"/>       
+                    <label for="eventos"> Evento </label>                 
+                <br>
+                <label for="pago"></label><li>Opción de Pago:</li></label>
+                <p><strong>> ></strong> Una vez que tengas productos en tu carrito se habilitará el boton de envío de datos.</p>
+                <select name="pago" id="pago">
+                    <option value="transferencia"> Transferencia </option>             
+                    <option value="mercadoPagoa"> Mercado Pago </option>             
+                    <option value="efectivo"> Efectivo </option>
+                </select>             
+                <br><br>
+                <li>Cargar códigos de descuento:</li>
+                <p><strong>> ></strong> Se habilitará para completar en esta sección una vez que tengas productos en tu carrito.<p></p>
+                <input type="text" id="codigoDescuento" class="carritoDatos" placeholder="Escribe tu cód. de descuento" size="28" maxlenght="30"/>
             </ul>     
-
-            <p class="titulo1"> > > DESCARGA DE REGALO!! =)</p>
-            <p id="descarga"> >> Descarga gratis un planer y tracker anual perpetuo!
-            haciendo <a href="https://1drv.ms/b/s!AtmrNhiVGTFrglRYIzeGnkGcWiQ7?e=Zse14D" 
-            target="_blank" download="Descarga-arTamCrafts.pdf">> > clic aquí   <svg xmlns="http://www.w3.org/2000/svg" 
-            width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 
-                3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
-                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 
-                0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 
-                0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 
-                0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-            </svg> < <</a></p>
         </aside>
 
     </section>

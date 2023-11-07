@@ -1,17 +1,23 @@
-// Juego de inicio Piedra, Papel o Tijera para dar descuentos
+// Juego en index Piedra, Papel o Tijera para dar descuentos
+
+//Variable para el nombre y saludo
 
 let nombre = "0"
 nombre = prompt("¿Cuál es tu nombre?")
 alert("¡Hola " + nombre + ", vamos a jugar Piedra, Papel o Tijera!! ¡Si Ganás tendrás un código de descuento! =D")
 
-// 1 es piedra, 2 es papel, 3 es tijera
+// Variables de puntos y jugador vs pc con la cuenta del numero aleatorio entre 1 y 3 y redondeado
 
 let jugador = 0
 let min = 1
 let max = 3
 let pc = Math.floor(Math.random() * (max - min + 1) +  min)
 
-jugador = prompt("Elige: 1 para piedra, 2 para papel, 3 para tijera")
+// prompt de reglas
+
+jugador = prompt("Presiona la tecla: 1 para piedra, 2 para papel, 3 para tijera")
+
+// condiciones del jugador, si da clik en x aparece un alert de elejiste...
 
 if(jugador == 1) {
     alert("Elegiste piedra") 
@@ -23,15 +29,17 @@ if(jugador == 1) {
     alert("No es una opción válida")
 }
 
+// condiciones de la pc (ya tiene hecha su función de número random)
+
 if(pc == 1) {
-    alert("Pc elige piedra") 
+    alert("Pc elige piedra")
 } else if(pc == 2){
     alert("Pc elige papel")
 } else if(pc == 3){ 
     alert("Pc elige tijera")	
 }
 
-// COMBATE
+// PC vs Jugador con cada caso posible y su alert
 
 if(pc == jugador){
     alert("EMPATE! Tienes igual Premio! Código: 5%offArtamCrafts . Usalo antes de finalizar la compra.")

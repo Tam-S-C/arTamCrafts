@@ -114,11 +114,6 @@ ul{
     line-height: 24px;
 }
 
-#descarga{
-    padding: 10px 10px 10px 25px;
-    font-size: 16px;
-}
-
 aside a:hover {
     color: #E885B0;
     background-color: #D7D7ED;
@@ -203,6 +198,18 @@ footer {
 #comentario {
     resize: vertical;
     min-height: 30px;
+}
+
+/*Pagina Carrito*/
+
+.carritoDatos {
+    border-radius: 10px;
+    border-color: #978FC5;
+}
+
+#pago {
+    border-radius: 5px;
+    border-color: #978FC5;
 }
 
 /*Responsive tablets*/
@@ -292,10 +299,4 @@ footer {
 
 #portfolioIMG:hover {
     width: 250px;
-}
-
-/*Texto popUp*/
-
-.oculto {
-    display: none;
 }
