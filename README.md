@@ -19,7 +19,9 @@ Entrega final:
 - Sumé ilustraciones en varias páginas y foto-producto.
 - Agregué gifs y animaciones en "sobre mí" con efecto en css.
 - Sumé el texto en "cómo comprar?"
-- La sección del carrito aun no se encuentra funcional, 
-y a la sección productos me falta aun sacar fotos para seguir sumando
-y una vez ya con todos los productos hacer funcional el buscador del header 
-y el buscar por categorías.
+- Sumé info de envios
+- Agregué el form de pagos, envios y cod de descuento en pagina de carrito
+- Para más adelante: sección del carrito aun no se encuentra funcional, 
+la sección productos me falta aun sacar fotos para seguir sumando
+y una vez ya con todos los productos hacer funcional el buscador del header, 
+el buscar por categorías y el carrito.
