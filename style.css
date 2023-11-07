@@ -70,10 +70,6 @@ nav a:active {
     padding: 0px 12px 0px 10px;
 }
 
-#inicio{
-    font-weight:bold;
-}
-
 section{
     width: 90%;
     margin: auto;
@@ -95,7 +91,6 @@ main {
 }
 
 article{
-    width: 80%;
     font-size: 18px;
     padding: 0px 10px 10px 10px;
 }
@@ -154,13 +149,15 @@ footer {
     border-radius: 5px; 
 }
 
+/*index y sobreMi contenedor con img*/
+
 #blueHair {
-    float: auto;
     border-radius: 15px; 
     margin: 0px 0px 0px 30px;
+    float: auto;
 }
 
-#contenedor1 {
+.contenedor1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -168,12 +165,18 @@ footer {
 /*css productos*/
 .imgProducto {
     padding: 5px;
+    border-radius: 15px;
 }
 
 #contenedorProductos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+#img1, #img2, #img3 {
+    border-radius: 15px;
+    padding: 5px 0 0 0;
 }
 
 /*css contacto*/
@@ -190,6 +193,17 @@ footer {
     border-color: #D7D7ED;
 }
 
+.botonContacto:hover{
+    background: #E885B0;
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#comentario {
+    resize: vertical;
+    min-height: 30px;
+}
 
 /*Responsive tablets*/
 
@@ -204,6 +218,7 @@ footer {
         margin: 10px 0px 0px 0px;
     }
 }
+
 
 @media (max-width: 928px) {
     header {
@@ -226,15 +241,20 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #contenedor1 {
-        display: grid;
-        grid-template-columns: 1fr;
+    #nombre, #email, #comentario, #apellido {
+        width: 350px;
     }
 }
 
 @media (max-width: 722px) {
     footer {
         height: 130px;
+    }
+    #blueHair {
+        width: 150px;
+    }
+    #nombre, #email, #comentario, #apellido {
+        width: 250px;
     }
 }
 
@@ -256,12 +276,12 @@ footer {
     footer {
         height: 150px;
     }
-    #nombre, #email, #comentario, #apellido {
-    width: 250px;
-    }
     #contenedorProductos {
     display: grid;
     grid-template-columns: 1fr;
+    }
+    #nombre, #email, #comentario, #apellido {
+        width: 200px;
     }
 }
 
@@ -269,4 +289,8 @@ footer {
 
 #portfolioIMG:hover {
     width: 250px;
+}
+
+.oculto {
+    display: none;
 }
