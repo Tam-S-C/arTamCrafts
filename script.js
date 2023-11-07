@@ -3,8 +3,8 @@
 //Variable para el nombre y saludo
 
 let nombre = "0"
-nombre = prompt("¿Cuál es tu nombre?")
-alert("¡Hola " + nombre + ", vamos a jugar Piedra, Papel o Tijera!! ¡Si Ganás tendrás un código de descuento! =D")
+nombre = prompt("Bienvenid@!! ✨ ¿Cuál es tu nombre? 😃")
+alert("¡Hola " + nombre + " 😊, vamos a jugar Piedra 💎, Papel 📃 o Tijera ✂! ¡Si Ganás tendrás un código de descuento! 🎉")
 
 // Variables de puntos y jugador vs pc con la cuenta del numero aleatorio entre 1 y 3 y redondeado
 
@@ -15,40 +15,40 @@ let pc = Math.floor(Math.random() * (max - min + 1) +  min)
 
 // prompt de reglas
 
-jugador = prompt("Presiona la tecla: 1 para piedra, 2 para papel, 3 para tijera")
+jugador = prompt("Presiona la tecla: 1 para Piedra 💎, 2 para Papel 📃, 3 para Tijera ✂")
 
 // condiciones del jugador, si da clik en x aparece un alert de elejiste...
 
 if(jugador == 1) {
-    alert("Elegiste piedra") 
+    alert("Elegiste Piedra 💎") 
 } else if(jugador == 2){
-    alert("Elegiste papel")
+    alert("Elegiste Papel 📃")
 } else if(jugador == 3){ 
-    alert("Elejiste tijera")	
+    alert("Elegiste Tijera ✂")	
 } else {
-    alert("No es una opción válida")
+    alert("Esa era una opción válida 😞")
 }
 
 // condiciones de la pc (ya tiene hecha su función de número random)
 
 if(pc == 1) {
-    alert("Pc elige piedra")
+    alert("Pc elige Piedra 💎")
 } else if(pc == 2){
-    alert("Pc elige papel")
+    alert("Pc elige Papel 📃")
 } else if(pc == 3){ 
-    alert("Pc elige tijera")	
+    alert("Pc elige Tijera ✂")	
 }
 
 // PC vs Jugador con cada caso posible y su alert
 
 if(pc == jugador){
-    alert("EMPATE! Tienes igual Premio! Código: 5%offArtamCrafts . Usalo antes de finalizar la compra.")
+    alert("EMPATE! Tienes igual Premio! 😁 Código: 5%offArtamCrafts . Usalo antes de finalizar la compra.")
 } else if (jugador == 1 && pc == 3) {
-    alert("GANASTE!! Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
+    alert("GANASTE!! 🎉 Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
 } else if (jugador == 2 && pc == 1) {
-    alert("GANASTE!! Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
+    alert("GANASTE!! 🎉 Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
 }  else if (jugador == 3 && pc == 2) {
-    alert("GANASTE!! Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
+    alert("GANASTE!! 🎉 Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
 }	else {
-    alert("PERDISTE! :( Mejor suerte la próxima.")
+    alert("PERDISTE! 😢 Mejor suerte la próxima.")
 }
