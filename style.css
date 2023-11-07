@@ -97,7 +97,7 @@ article{
 
 #carouselExampleCaptions{
     display: flex;
-    width: 291px;
+    width: 275px;
     margin: 10px;
 }
 
@@ -284,15 +284,17 @@ footer {
         width: 200px;
     }
     #blueHair {
-        width: 100px;
+        width: 90px;
     }
 }
 
-/*Imágenes Página sobre mi*/
+/*Imágenes Página sobreMi*/
 
 #portfolioIMG:hover {
     width: 250px;
 }
+
+/*Texto popUp*/
 
 .oculto {
     display: none;
