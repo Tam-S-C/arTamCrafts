@@ -1,7 +1,12 @@
 // Juego en index Piedra, Papel o Tijera para dar descuentos
 
-//Variable para el nombre y saludo
+//Likeando el boton del html con el evento click
+document.getElementById('botonAJugar').addEventListener('click', iniciarJuego);
 
+//funcion para que al darle click se ejecute
+function iniciarJuego() {
+
+//Variable para el nombre y saludo
 let nombre = "0"
 nombre = prompt("Bienvenid@!! ✨ ¿Cuál es tu nombre? 😃")
 alert("¡Hola " + nombre + " 😊, vamos a jugar Piedra 💎, Papel 📃 o Tijera ✂! ¡Si Ganás tendrás un código de descuento! 🎉")
@@ -51,4 +56,6 @@ if(pc == jugador){
     alert("GANASTE!! 🎉 Este es tu código de descuento 10%offArTamCrafts . Usalo antes de finalizar la compra.")
 }	else {
     alert("PERDISTE! 😢 Mejor suerte la próxima.")
+}
+
 }

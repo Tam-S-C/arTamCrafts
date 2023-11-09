@@ -144,11 +144,22 @@ footer {
     border-radius: 5px; 
 }
 
+#botonAJugar {
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px #E885B0;
+    padding: 10px;
+}
+
+#botonAJugar:hover{
+    background: #CFE9E7;
+    transition: 0.5s;
+}
+
 /*index y sobreMi contenedor con img*/
 
 #blueHair {
     border-radius: 15px; 
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 20px;
     float: auto;
 }
 
@@ -288,7 +299,7 @@ footer {
     grid-template-columns: 1fr;
     }
     #nombre, #email, #comentario, #apellido {
-        width: 200px;
+        width: 180px;
     }
     #blueHair {
         width: 90px;
