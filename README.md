@@ -1,25 +1,21 @@
 # artamcrafts
 UTN BAM 2.0 WEB arTamCrafts
+Por: Tamara S. Canzobre
 
-E-commerce web de mi emprendimiento de papelería: arTam Crafts
-
-Sprint 2
-
-> Sumé íconos de redes al footer y en contacto
-> Cambié botón de descarga y el del carrito por unos de bootstrap (el ícono del calendario del aside, y el carrito del nav)
-> Puse una galería de imágenes, carrousel de BootStrap (dentro de productos)
-> Hice la web responsive para pc, tablets y celulares
-> Link del Deploy y del repositorio (en la entrega)
-> Agregué los links al resto de páginas (aun varias están vacías)
-
+Web de mi emprendimiento de papelería: arTam Crafts
 
 Entrega final:
-- Sumé un juego de Piedra, Papel y Tijeras con JS en el index para obtener descuentos.
-- Agregué un popup en contacto avisando que "el mensaje fue enviado".
+
+- Link del deploy: https://tam-s-c.github.io/artamcrafts/
+
+- Link del repositorio: https://github.com/Tam-S-C/artamcrafts.git
+
+- Sumé un juego de Piedra, Papel y Tijeras con JS en el index y productos para obtener descuentos.
+- Agregué un popup con JS en contacto avisando que "el mensaje fue enviado".
 - Sumé ilustraciones en varias páginas y foto-producto.
-- Agregué gifs y animaciones en "sobre mí" con efecto en css.
+- Agregué gifs y animaciones en "sobre mí" con efecto de zoom (:hover) en css.
 - Sumé el texto en "cómo comprar?"
-- Sumé info de envios
+- Sumé info de envios en el aside
 - Agregué el form de pagos, envios y cod de descuento en pagina de carrito
 - Para más adelante: sección del carrito aun no se encuentra funcional, 
 la sección productos me falta aun sacar fotos para seguir sumando
