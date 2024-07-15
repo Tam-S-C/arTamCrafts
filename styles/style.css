@@ -139,6 +139,10 @@ footer {
     float: left;
 }
 
+#behance {
+    margin-bottom: -10px;
+}
+
 #afip {
     float: left;
     border-radius: 5px; 
@@ -210,6 +214,7 @@ footer {
     resize: vertical;
     min-height: 30px;
 }
+
 
 /*Pagina Carrito*/
 
