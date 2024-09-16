@@ -10,7 +10,7 @@ Entrega final:
 
 - Link del repositorio: https://github.com/Tam-S-C/artamcrafts.git
 
->> HTML + CSS + JS
+> HTML + CSS + JS
 
 - Juego de Piedra, Papel y Tijeras con JS (en el /index y /productos) para obtener descuentos.
 - Ventana Modal con JS en /contacto avisando que "el mensaje fue enviado".
