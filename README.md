@@ -31,4 +31,4 @@ y una vez ya con todos los productos subidos, hacer funcional el buscador del he
 
 | **FrontEnd - HTML/CSS/JS** |
 |:--:|
-![FrontEnd - HTML/CSS/JS](https://media.licdn.com/dms/image/D4D2DAQEzwKHBzLIYaQ/profile-treasury-document-images_800/1/1701912678793?e=1729123200&v=beta&t=5PDTNVG0-nB-O57WyWiCoNVZXFKMKiw7htYfN6AmdUQ) |
+![FrontEnd - HTML/CSS/JS](https://media.licdn.com/dms/image/D4D2DAQEzwKHBzLIYaQ/profile-treasury-document-images_1280/1/1701912678159?e=1730332800&v=beta&t=guUcgVS6Wl3ANHVPLQM2cUgBlTE-vflgthQ-I1omGjI) |
