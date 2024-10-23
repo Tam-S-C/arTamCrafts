@@ -29,6 +29,4 @@ Entrega final:
 la sección /productos me falta aun sacar fotos para seguir sumándolos
 y una vez ya con todos los productos subidos, hacer funcional el buscador del header, los filtros de búsqueda y el carrito.
 
-| **FrontEnd - HTML/CSS/JS** |
-|:--:|
-![FrontEnd - HTML/CSS/JS](https://media.licdn.com/dms/image/D4D2DAQEzwKHBzLIYaQ/profile-treasury-document-images_1280/1/1701912678159?e=1730332800&v=beta&t=guUcgVS6Wl3ANHVPLQM2cUgBlTE-vflgthQ-I1omGjI) |
+
